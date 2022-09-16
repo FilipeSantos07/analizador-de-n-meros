@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Noto+Sans:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: rgba(228, 170, 10, 0.712);
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    
+}
+h1 {
+    font-size: 30px;
+    color: rgb(92, 13, 240);
+    text-shadow: 2px 1px white;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: white;
+    border-radius: 10px;
+    padding: 15px 20px;
+    width: 400px;
+    box-shadow: 3px 3px  20px rgba(0, 0, 0, 0.445);
+    text-align: center;
+}
+#adicionar {
+    padding: 6px;
+    border-radius: 10px 5px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: white;
+    background: rgb(92, 13, 240);
+    border: 1px solid rgb(92, 13, 240);
+    width: 100px;
+    cursor: pointer;
+    
+}
+#adicionar:hover {
+    transform: scale(1.1);
+}
+#finalizar {
+    padding: 7px;
+    border-radius: 10px 5px;
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    background: rgb(92, 13, 240);
+    border: none;
+    width: 100px;
+    cursor: pointer;
+
+}
+#finalizar:hover {
+    transform: scale(1.1);
+}
+#selectR {
+    width: 150px;
+    margin-top: 20px;
+}
+#input-numero {
+    width: 50px;
+    padding: 3px 5px;
+    font-size: 17px;
+}
+#finalizar {
+    margin-bottom: 10px;
+}
+@media screen and (max-width:600px) {
+    section {
+        padding: 20px 10px;
+        width: 307px;
+    }
+    p {
+        margin: -7px 0;
+        font-size: 18px;
+    }
+    #finalizar {
+        margin-bottom: 22px;
+    }
+}
