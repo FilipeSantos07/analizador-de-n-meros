@@ -16,5 +16,5 @@ Nesse projeto eu fiz do zero um analizador de números, que foi um dos desafios 
 
 ## 💛 Contato
 
-outerspaceguy@live.co.uk
+FilipeSantosEstudos1@gmail.com
 
